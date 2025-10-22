@@ -10,7 +10,7 @@ class TeamMember:
         self.role = role
 
     def __repr__(self):
-        return f"TeamMember(name='{self.name}', role='{self.role}')"
+        return f"TeamMember(name='{self.name}', role='{self.role}'"
 
 
 class Task:
@@ -65,6 +65,7 @@ if __name__ == "__main__":
     print("After completion:", project.get_pending_tasks())
 # This will generate the code review for the python
 # This is for review purpose, only
+
 
 
 
